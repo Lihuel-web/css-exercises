@@ -1,0 +1,17 @@
+.pinkverdana {
+    background-color: rgb(215, 119, 135);
+    font-family: Verdana, "Dejavu Sans", sans-serif; /*Note: Separate each value with a comma.
+    Note: If a font name contains white-space, it must be quoted.*/
+}
+#blue36 {
+    color: #0d0dc1;
+    font-size: 36px;
+}
+.size24 {
+    font-size: 24px;
+}
+#bold24back {
+    font-weight: bold;
+    size: 24px;
+    background-color: rgb(117, 194, 117);
+}
