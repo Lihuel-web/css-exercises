@@ -6,22 +6,59 @@ body {
 .card {
   width: 400px;
   background: #fff;
-  margin: 16px auto;
+  margin: auto; /*margin: 25px 50px 75px 100px;
+  top margin is 25px
+  right margin is 50px
+  bottom margin is 75px
+  left margin is 100px SE MUEVE COMO RELOJ EMPEZANDO DESDE LAS 12 O ARRIBA, SI HAY TRES VALORES ES IGUAL ARR-DER-ABAJO
+  If the margin property has two values:
+
+margin: 25px 50px; SI SÓLO HAY DOS EL PRIMERO ES ARRIBA Y ABAJO Y EL SEGUNDO ES IGUAL PARA DERECHA E IZQUIERDA
+top and bottom margins are 25px
+right and left margins are 50px
+
+margin: 25px; SI HAY UN SOLO VALOR ES IGUAL EN LOS 4 LADOS
+all four margins are 25px
+*/
+  padding: 8px;
 }
 
 .title {
+  margin-top: 0;
+  padding: 8px;
+  margin: 0;
   background: #e3f4ff;
+  font-size: 16px;
 }
 
 .content {
+  display: block;
   background: #e3f4ff;
+  margin-top: 8px;
+  padding: 8px;
+  padding-bottom: 16px;
+  padding-top: 16px;
 }
 
 .button-container {
+  display: block;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 8px;
+  text-align: center;
+  margin-bottom: 0;
   background: #e3f4ff;
 }
 
 button {
+  margin: 0;
+  display: block;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   background: white;
   border: 1px solid #eee;
+  margin-left: auto;
+  margin-right: auto;
 }
